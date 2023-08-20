@@ -458,7 +458,9 @@ fieldset {
   margin-top: 72px;
   max-width: 264px;
   height: 428px;
+
   align-items: center;
+  justify-content: center;
 }
 
 .team-item:not(:last-child) {
@@ -522,7 +524,7 @@ fieldset {
 /*------section-5-customers---------*/
 
 .customers {
-  padding: 120px 0px;
+  padding: 96px 0px;
 }
 
 .customers-title-main {
@@ -536,11 +538,13 @@ fieldset {
 }
 .customers-list {
   display: flex;
-  gap: 24px;
+  gap: 72px 16px;
+  flex-wrap: wrap;
 }
 
 .customers-item {
-  width: calc((100% - 120px) / 6);
+  width: 190px;
+  width: calc((100% - 16px) / 2);
   height: 88px;
 }
 

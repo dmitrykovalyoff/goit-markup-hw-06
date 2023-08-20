@@ -125,6 +125,12 @@
   .team-title {
     margin-bottom: 72px;
   }
+
+  .customers-item {
+    max-width: 168px;
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+  }
 }
 
 /*---DESKTOP 1158---*/
@@ -134,6 +140,10 @@
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .tablet {
+    width: 100%;
   }
 
   .header-adress-list {
@@ -246,5 +256,17 @@
 
   .team-item {
     width: calc((100% - 72px) / 4);
+  }
+
+  .customers {
+    padding: 120px 0px;
+  }
+  .customers-list {
+    gap: 24px;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+    max-width: 168px;
   }
 }
