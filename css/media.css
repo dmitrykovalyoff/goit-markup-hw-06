@@ -71,7 +71,6 @@
   }
 
   .hero {
-    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -151,6 +150,10 @@
     padding-left: 0;
   }
 
+  .footer-container-form {
+    margin: 0;
+  }
+
   .footer-text {
     width: 264px;
     text-align: left;
@@ -159,6 +162,7 @@
 
   .footer-form {
     display: flex;
+    flex-wrap: nowrap;
     gap: 24px;
   }
 
@@ -214,7 +218,6 @@
   }
 
   .hero {
-    max-width: 1440px;
     height: 600px;
     padding-bottom: 188px;
     padding-top: 188px;

@@ -228,6 +228,8 @@ fieldset {
   margin-left: auto;
   margin-bottom: 32px;
   border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid var(--cornflower);
 }
 
 .modal-imag {
@@ -313,7 +315,6 @@ fieldset {
 /*--------------section-1/hero--------------*/
 
 .hero {
-  max-width: 428px;
   height: 432px;
   margin: 0 auto;
   background-color: var(--navyblue);
@@ -707,7 +708,6 @@ fieldset {
 .footer-form {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 .footer-form-input::placeholder {
