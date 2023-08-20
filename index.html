@@ -15,9 +15,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/syles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <!--header-->
+
     <header class="header">
       <div class="header-container container">
         <nav class="header-navigation">
@@ -57,10 +59,91 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="mob-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-header_menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="menu-close-btn" data-menu-close>
+            <svg class="modal-imag" width="8" height="8">
+              <use href="./images/icons.svg#icon-modal-close"></use>
+            </svg>
+          </button>
+
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link blu" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <address class="mob-adress">
+            <ul class="mob-adress-list list">
+              <li class="mob-adress-item">
+                <a class="mob-adress-link link blu tel" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-adress-item">
+                <a class="mob-adress-link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <div class="mob-social">
+            <ul class="mob-social-list list">
+              <li class="mob-social-item">
+                <a class="mob-social-link link" href="">
+                  <svg class="mob-imag-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-item">
+                <a class="mob-social-link link" href="">
+                  <svg class="mob-imag-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-item">
+                <a class="mob-social-link link" href="">
+                  <svg class="mob-imag-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-item">
+                <a class="mob-social-link link" href="">
+                  <svg class="mob-imag-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
+
     <main>
       <!--section-1/hero-->
+
       <section class="hero">
         <div class="container">
           <h1 class="hero-logo">Effective Solutions for Your Business</h1>
@@ -69,7 +152,9 @@
           </button>
         </div>
       </section>
+
       <!--section-2-skills-->
+      <!----
       <section class="skills">
         <div class="container">
           <h2 class="visually-hidden">Skills</h2>
@@ -125,7 +210,9 @@
           </ul>
         </div>
       </section>
+    -->
       <!--section-3-doing-->
+      <!----
       <section class="doing">
         <div class="container">
           <h2 class="doing-title">What are we doing</h2>
@@ -157,8 +244,9 @@
           </ul>
         </div>
       </section>
-
+-->
       <!--section-4-team-->
+      <!----
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -403,8 +491,9 @@
           </ul>
         </div>
       </section>
-
+-->
       <!--section-5-customers-->
+      <!----
       <section class="customers">
         <div class="container">
           <h2 class="customers-title-main">Customers</h2>
@@ -456,8 +545,12 @@
           </ul>
         </div>
       </section>
+-->
     </main>
+
     <!--footer-->
+    <!----
+
     <footer class="footer">
       <div class="container page">
         <div class="footer-wramp">
@@ -539,7 +632,7 @@
         </div>
       </div>
     </footer>
-
+    -->
     <!--modal-->
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
@@ -628,5 +721,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
